@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Appscript Prescriber TestSuite]">
+  <test name="AppSccript Smoke Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.cart.Appscript_Cart">
+        <methods>
+          <include name="reportconfig"/>
+          <include name="AddToCart"/>
+        </methods>
+      </class> <!-- com.cart.Appscript_Cart -->
+    </classes>
+  </test> <!-- AppSccript Smoke Test(failed) -->
+</suite> <!-- Failed suite [Appscript Prescriber TestSuite] -->

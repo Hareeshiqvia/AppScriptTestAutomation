@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55" started-at="2018-02-19T09:38:19Z" finished-at="2018-02-19T09:38:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55" started-at="2018-02-19T09:38:19Z" finished-at="2018-02-19T09:38:19Z">
+      <class name="appscriptAutomationTest.TestcaseTrigger">
+        <test-method status="FAIL" signature="ApplicationLogin(java.lang.String)[pri:0, instance:appscriptAutomationTest.TestcaseTrigger@4fb64261]" name="ApplicationLogin" is-config="true" duration-ms="0" started-at="2018-02-19T15:08:19Z" finished-at="2018-02-19T15:08:19Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[Parameter 'browser' is required by BeforeClass on method ApplicationLogin but has not been marked @Optional or definedin C:\Users\hhb\AppData\Local\Temp\testng-eclipse--799018287\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: Parameter 'browser' is required by BeforeClass on method ApplicationLogin but has not been marked @Optional or definedin C:\Users\hhb\AppData\Local\Temp\testng-eclipse--799018287\testng-customsuite.xmlat org.testng.internal.Parameters.createParams(Parameters.java:290)at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)at org.testng.internal.Parameters.createParameters(Parameters.java:620)at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:163)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplicationLogin -->
+        <test-method status="SKIP" signature="verifyLogin()[pri:1, instance:appscriptAutomationTest.TestcaseTrigger@4fb64261]" name="verifyLogin" duration-ms="0" started-at="2018-02-19T15:08:19Z" finished-at="2018-02-19T15:08:19Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[Parameter 'browser' is required by BeforeClass on method ApplicationLogin but has not been marked @Optional or definedin C:\Users\hhb\AppData\Local\Temp\testng-eclipse--799018287\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: Parameter 'browser' is required by BeforeClass on method ApplicationLogin but has not been marked @Optional or definedin C:\Users\hhb\AppData\Local\Temp\testng-eclipse--799018287\testng-customsuite.xmlat org.testng.internal.Parameters.createParams(Parameters.java:290)at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)at org.testng.internal.Parameters.createParameters(Parameters.java:620)at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:163)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="SKIP" signature="ReportFlush()[pri:0, instance:appscriptAutomationTest.TestcaseTrigger@4fb64261]" name="ReportFlush" is-config="true" duration-ms="0" started-at="2018-02-19T15:08:19Z" finished-at="2018-02-19T15:08:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportFlush -->
+      </class> <!-- appscriptAutomationTest.TestcaseTrigger -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

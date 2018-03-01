@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Appscript CI  TestSuite]">
+  <test name="AppSccript Footer Navigation(failed)">
+    <classes>
+      <class name="FooterTestNavigation.Footertest">
+        <methods>
+          <include name="ApplicationLogin"/>
+          <include name="ReportFlush"/>
+          <include name="verifyFooterLinks_TOS_BeforeLogin"/>
+        </methods>
+      </class> <!-- FooterTestNavigation.Footertest -->
+    </classes>
+  </test> <!-- AppSccript Footer Navigation(failed) -->
+</suite> <!-- Failed suite [Appscript CI  TestSuite] -->

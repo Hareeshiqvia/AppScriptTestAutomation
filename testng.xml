@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+ <suite name="Appscript CI  TestSuite" parallel="tests" thread-count="3">
+
+<!--<suite name="Appscript CI  TestSuite" parallel="none" >-->
+ <!--  
+     <parameter name="browser" value="chrome"/>
+       <parameter name="browser" value="IE"/>
+  <test name="AppSccript Regression Suite 1">
+  <parameter name="browser" value="firefox"/> 
+   <classes>
+    <class name="appscriptAutomationTest.TestcaseTrigger"/> 
+        </classes>
+  </test>  Test
+  
+   <test name="AppSccript Bag Suite">
+     <parameter name="browser" value="chrome"/>
+       <parameter name="browser" value="IE"/>
+ <parameter name="browser" value="firefox"/>
+   <classes>
+   <class name="appscriptBagTest.AddOrRemoveBag_BagLimitValidation"/>
+    </classes>
+  </test>
+   -->
+   
+    <test name="AppSccript Regression Suite 1">
+  <parameter name="browser" value="chrome"/> 
+   <classes>
+    <class name="appscriptAutomationTest.TestcaseTrigger"/> 
+        </classes>
+  </test>  
+  <!--  <test name="AppSccript Footer Navigation">
+     <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="FooterTestNavigation.Footertest"/>
+    </classes>
+  </test> -->
+  
+</suite> <!-- Suite -->
